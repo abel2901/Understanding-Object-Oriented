@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Exercises;
 
-/**
- *
- * @author user
- */
-public class ClienteEspecial {
-    
+public class ClienteEspecial extends ContaCorrente {
+
+    public double saqueEspecial(double quantidade) {
+        return saldo = saldo - quantidade * 0.5;
+    }
 }

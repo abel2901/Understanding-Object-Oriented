@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Exercises;
 
-/**
- *
- * @author user
- */
 public class ContaCorrente {
-    
+
+    double saldo;
+
+    public double saldo() {
+        return saldo;
+    }
+
+    public double deposita(double quantidade) {
+        return saldo = quantidade + saldo;
+    }
+
+    public double saca(double quantidade) {
+        return saldo = saldo - quantidade;
+    }
+
 }
