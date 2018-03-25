@@ -1,4 +1,4 @@
-package Exercises;
+package exercicios;
 
 public class Seta {
 
@@ -29,7 +29,6 @@ public class Seta {
 
                 if ((j == 2) && (i == 2)) {
                     System.out.print("*");
-                    continue;
                 } else {
                     System.out.print(" ");
                 }

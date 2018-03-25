@@ -1,5 +1,5 @@
 
-package Exercises;
+package exercicios;
 
 public class Quadrado {
     

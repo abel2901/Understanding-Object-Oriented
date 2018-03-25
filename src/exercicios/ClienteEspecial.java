@@ -1,4 +1,4 @@
-package Exercises;
+package exercicios;
 
 public class ClienteEspecial extends ContaCorrente {
 
